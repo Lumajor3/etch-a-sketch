@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    border: solid 2px red;
+    height: 45vw;
+    width: 100%;
+}
+
+.grid-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border: solid 2px black;
+    height: 600px;
+    width: 600px;
+    margin-right: 25px;
+}
+
+.grid-square {
+    border: solid 1px black;
+}
