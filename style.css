@@ -3,10 +3,23 @@
     height: 10vw;
 }
 
+.control-instructions {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.instructions-section-1 {
+    flex-grow: 4;
+}
+
+.instructions-section-2 {
+    flex-grow: 1;
+}
+
 .game-container {
     display: flex;
-    justify-content: end;
-    align-items: center;
+    justify-content: space-between;
     border: solid 2px red;
     height: 35vw;
     width: 100%;
@@ -21,6 +34,10 @@
     height: 600px;
     width: 600px;
     margin-right: 25px;
+}
+
+.game-instructions {
+    margin-left: 25px;
 }
 
 .grid-square {
@@ -38,7 +55,7 @@
     height: 34px;
 }
 
-    .switch input {
+.switch input {
     opacity: 0;
     width: 0;
     height: 0;
