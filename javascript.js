@@ -13,10 +13,10 @@ function createGameSquares(size) {
 
 }
 
-let editButton = document.querySelector(".edit-button")
+const editButton = document.querySelector(".edit-button")
 
 editButton.addEventListener("click", () => {
-    let userChoice = prompt("how many squares?");
+    let userChoice = prompt("Choose a grid size between 1-32");
     validateInput(userChoice);
 })
 
@@ -37,5 +37,6 @@ function validateInput(number) {
         createGameSquares(parseInt(number));
     }
 }
+
 
 createGameSquares(12);

@@ -1,6 +1,9 @@
 .control-panel {
-    border: solid 2px green;
-    height: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8vw;
+
 }
 
 .control-instructions {
@@ -19,8 +22,9 @@
 
 .game-container {
     display: flex;
-    justify-content: space-between;
-    border: solid 2px red;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     height: 35vw;
     width: 100%;
 }
